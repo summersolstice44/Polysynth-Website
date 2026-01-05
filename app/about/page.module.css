@@ -1,0 +1,176 @@
+.hero {
+  padding: 6rem 0 4rem;
+  background: linear-gradient(180deg, #000000 0%, #1a0000 100%);
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #cccccc;
+}
+
+.mission {
+  padding: 6rem 0;
+  background: #000000;
+}
+
+.missionContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.missionContent h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.missionContent p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+}
+
+.founder {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #000000 0%, #1a0000 100%);
+}
+
+.founderContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.founderInfo h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.founderInfo h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #ff0000, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.founderInfo p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+}
+
+.values {
+  padding: 6rem 0;
+  background: #000000;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.value {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.value:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+.value h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.value p {
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 0 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .mission {
+    padding: 3rem 0;
+  }
+
+  .missionContent h2 {
+    font-size: 2rem;
+  }
+
+  .missionContent p {
+    font-size: 1.1rem;
+  }
+
+  .founder {
+    padding: 3rem 0;
+  }
+
+  .founderInfo h2 {
+    font-size: 2rem;
+  }
+
+  .founderInfo h3 {
+    font-size: 1.5rem;
+  }
+
+  .founderInfo p {
+    font-size: 1.1rem;
+  }
+
+  .values {
+    padding: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
