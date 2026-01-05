@@ -97,7 +97,7 @@ export default function Applications() {
       <section className={styles.cta}>
         <div className="container">
           <div className={styles.ctaContent}>
-            <h2>Ready to Explore What's Possible?</h2>
+            <h2>Ready to Explore What&apos;s Possible?</h2>
             <p>Join our waitlist to be among the first to experience the future of 3D printing.</p>
             <Link href="/waitlist" className={styles.ctaButton}>
               Join Waitlist

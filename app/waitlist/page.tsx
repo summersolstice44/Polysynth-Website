@@ -50,7 +50,7 @@ export default function Waitlist() {
           <div className={styles.successMessage}>
             <div className={styles.successIcon}>✓</div>
             <h1>Thank You!</h1>
-            <p>You've been added to our waitlist. We'll notify you as soon as the poly1-mini becomes available.</p>
+            <p>You&apos;ve been added to our waitlist. We&apos;ll notify you as soon as the poly1-mini becomes available.</p>
           </div>
         </div>
       </section>
@@ -134,8 +134,8 @@ export default function Waitlist() {
             <div className={styles.info}>
               <h3>What happens next?</h3>
               <ul>
-                <li>You'll receive a confirmation email</li>
-                <li>We'll keep you updated on product development</li>
+                <li>You&apos;ll receive a confirmation email</li>
+                <li>We&apos;ll keep you updated on product development</li>
                 <li>Early access to pre-orders when available</li>
                 <li>Exclusive updates and special offers</li>
               </ul>

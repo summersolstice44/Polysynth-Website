@@ -18,10 +18,10 @@ export default function Contact() {
         <div className="container">
           <div className={styles.contactGrid}>
             <div className={styles.contactInfo}>
-              <h2>Let's Connect</h2>
+              <h2>Let&apos;s Connect</h2>
               <p>
                 Have questions about the poly1-mini? Interested in partnerships
-                or collaborations? We'd love to hear from you.
+                or collaborations? We&apos;d love to hear from you.
               </p>
               
               <div className={styles.contactDetails}>

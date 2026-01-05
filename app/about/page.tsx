@@ -26,7 +26,7 @@ export default function About() {
               single-material printers can offer.
             </p>
             <p>
-              We're not just building a printer—we're building a platform that
+              We&apos;re not just building a printer—we&apos;re building a platform that
               enables new possibilities in design, manufacturing, and creativity.
               The poly1-mini represents our commitment to innovation, quality,
               and the future of additive manufacturing.
@@ -43,7 +43,7 @@ export default function About() {
               <h3>Eric Potempa</h3>
               <p>
                 Eric Potempa is the visionary behind Polysynth. With a passion
-                for pushing the boundaries of what's possible in 3D printing,
+                for pushing the boundaries of what&apos;s possible in 3D printing,
                 Eric founded Polysynth to solve the limitations he experienced
                 in existing multi-material printing solutions.
               </p>
@@ -54,7 +54,7 @@ export default function About() {
                 user-friendly design. The poly1-mini is the result of this vision.
               </p>
               <p>
-                Under Eric's leadership, Polysynth is committed to continuous
+                Under Eric&apos;s leadership, Polysynth is committed to continuous
                 innovation and excellence, always striving to deliver products
                 that exceed expectations and enable new creative possibilities.
               </p>
@@ -70,7 +70,7 @@ export default function About() {
             <div className={styles.value}>
               <h3>Innovation</h3>
               <p>
-                We're constantly pushing the boundaries of what's possible,
+                We&apos;re constantly pushing the boundaries of what&apos;s possible,
                 exploring new materials, techniques, and applications.
               </p>
             </div>
@@ -91,7 +91,7 @@ export default function About() {
             <div className={styles.value}>
               <h3>Community</h3>
               <p>
-                We're building more than a product—we're building a community
+                We&apos;re building more than a product—we&apos;re building a community
                 of creators, innovators, and visionaries.
               </p>
             </div>

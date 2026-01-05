@@ -86,7 +86,7 @@ export default function Product() {
             <div className={styles.feature}>
               <h3>Compact Footprint</h3>
               <p>
-                Don't let the size fool you. The poly1-mini packs professional
+                Don&apos;t let the size fool you. The poly1-mini packs professional
                 capabilities into a space-efficient design perfect for any workspace.
               </p>
             </div>
