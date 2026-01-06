@@ -43,7 +43,6 @@ export default function Home() {
           <h2 className={styles.sectionTitle}>Why Polysynth?</h2>
           <div className={styles.featuresGrid}>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🎨</div>
               <h3>Multi-Material</h3>
               <p>
                 Print with multiple resin materials in a single build, creating
@@ -51,7 +50,6 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>⚡</div>
               <h3>High Precision</h3>
               <p>
                 Exceptional detail and accuracy for professional-grade results
@@ -59,7 +57,6 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🔧</div>
               <h3>Professional Quality</h3>
               <p>
                 Built for designers, engineers, and creators who demand the best
@@ -67,7 +64,6 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🚀</div>
               <h3>Compact Design</h3>
               <p>
                 The poly1-mini fits perfectly in any workspace without

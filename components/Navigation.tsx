@@ -11,7 +11,6 @@ export default function Navigation() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/product', label: 'Product' },
-    { href: '/applications', label: 'Applications' },
     { href: '/waitlist', label: 'Waitlist' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' },

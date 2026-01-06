@@ -6,7 +6,6 @@ A modern, responsive website for Polysynth - a multi-material resin 3D printing 
 
 - **Home Page** - Hero section with product showcase and key features
 - **Product Page** - Detailed information about the poly1-mini printer
-- **Applications Page** - Use cases and applications for multi-material printing
 - **Waitlist Page** - Join the waitlist to be notified when the product launches
 - **About Page** - Company mission, founder information, and values
 - **Contact Page** - Contact information for Eric Potempa
@@ -61,7 +60,6 @@ The `vercel.json` file is included for additional configuration if needed.
 ├── app/                    # Next.js App Router pages
 │   ├── page.tsx           # Home page
 │   ├── product/           # Product page
-│   ├── applications/      # Applications page
 │   ├── waitlist/          # Waitlist page
 │   ├── about/             # About page
 │   ├── contact/           # Contact page
