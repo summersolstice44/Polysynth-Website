@@ -63,41 +63,6 @@ export default function About() {
         </div>
       </section>
 
-      <section className={styles.values}>
-        <div className="container">
-          <h2 className={styles.sectionTitle}>Our Values</h2>
-          <div className={styles.valuesGrid}>
-            <div className={styles.value}>
-              <h3>Innovation</h3>
-              <p>
-                We&apos;re constantly pushing the boundaries of what&apos;s possible,
-                exploring new materials, techniques, and applications.
-              </p>
-            </div>
-            <div className={styles.value}>
-              <h3>Quality</h3>
-              <p>
-                Every component, every print, every interaction is held to the
-                highest standards of excellence.
-              </p>
-            </div>
-            <div className={styles.value}>
-              <h3>Accessibility</h3>
-              <p>
-                We believe advanced technology should be accessible to everyone,
-                from hobbyists to professionals.
-              </p>
-            </div>
-            <div className={styles.value}>
-              <h3>Community</h3>
-              <p>
-                We&apos;re building more than a product—we&apos;re building a community
-                of creators, innovators, and visionaries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   )
 }

@@ -48,6 +48,7 @@ export default function Waitlist() {
       <section className={styles.hero}>
         <div className="container">
           <div className={styles.successMessage}>
+            <div className={styles.successIcon}>✓</div>
             <h1>Thank You!</h1>
             <p>You&apos;ve been added to our waitlist. We&apos;ll notify you as soon as the poly1-mini becomes available.</p>
           </div>
