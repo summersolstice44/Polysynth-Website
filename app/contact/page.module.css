@@ -88,6 +88,14 @@
   color: #ff0000;
 }
 
+.contactIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
 .social h3 {
   font-size: 1.25rem;
   font-weight: 600;

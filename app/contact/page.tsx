@@ -41,7 +41,7 @@ export default function Contact() {
               <div className={styles.contactDetails}>
                 <div className={styles.contactItem}>
                   <h3>Twitter</h3>
-                  <a href="https://x.com/eptmpa" anchor=blank className={styles.contactItem}>
+                  <a href="https://x.com/eptmpa" target="_blank" className={styles.contactItem}>
                     <img src="/twitter-bird-logo-svgrepo-com.svg" alt="Twitter" className={styles.contactIcon} />
                     @eptmpa
                   </a>
@@ -51,8 +51,8 @@ export default function Contact() {
               <div className={styles.contactDetails}>
                 <div className={styles.contactItem}>
                   <h3>Instagram</h3>
-                  <a href="https://www.instagram.com/polysynth.io/" anchor=blank className={styles.contactItem}>
-                    <img src="/instagram-logo-svgrepo-com.svg" alt="Instagram" className={styles.contactIcon} />
+                  <a href="https://www.instagram.com/polysynth.io/" target="_blank" className={styles.contactItem}>
+                    <img src="/instagram-svgrepo-com.svg" alt="Instagram" className={styles.contactIcon} />
                     @polysynth.io
                   </a>
                 </div>
