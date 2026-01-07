@@ -38,7 +38,8 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className={styles.contactItem}>
+              <div className={styles.contactDetails}>
+                <div className={styles.contactItem}>
                   <h3>Twitter</h3>
                   <a href="https://x.com/eptmpa" className={styles.contactItem}>
                      @eptmpa
@@ -46,7 +47,8 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className={styles.contactItem}>
+              <div className={styles.contactDetails}>
+                <div className={styles.contactItem}>
                   <h3>Instagram</h3>
                   <a href="https://www.instagram.com/polysynth.io/" className={styles.contactItem}>
                     @polysynth.io
