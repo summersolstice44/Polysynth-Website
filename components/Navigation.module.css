@@ -20,21 +20,72 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.circularTextContainer {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover .circularTextContainer {
+  transform: scale(1.05);
+}
+
+.circularText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(553.189deg);
+  transition: transform 0.5s ease;
+}
+
+.logo:hover .circularText {
+  animation: rotateText 8s linear infinite;
+}
+
+@keyframes rotateText {
+  from {
+    transform: rotate(553.189deg);
+  }
+  to {
+    transform: rotate(913.189deg);
+  }
+}
+
+.circularLetter {
+  position: absolute;
   font-size: 1.5rem;
   font-weight: 700;
-  transition: opacity 0.2s;
+  color: #888888;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  user-select: none;
 }
 
-.logo:hover {
-  opacity: 0.8;
+.circularTextContainer:hover .circularLetter {
+  color: var(--hover-color, #888888);
 }
 
-.logoText {
-  background: linear-gradient(135deg, #ff0000, #ff6b6b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.centerImage {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover .centerImage {
+  transform: rotate(360deg);
 }
 
 .navList {
@@ -91,6 +142,20 @@
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
+  }
+
+  .circularTextContainer {
+    width: 120px;
+    height: 120px;
+  }
+
+  .circularLetter {
+    font-size: 1rem;
+  }
+
+  .centerImage img {
+    width: 35px !important;
+    height: 35px !important;
   }
 
   .menuButton {
