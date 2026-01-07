@@ -38,6 +38,22 @@ export default function Contact() {
                 </div>
               </div>
 
+              <div className={styles.contactItem}>
+                  <h3>Twitter</h3>
+                  <a href="https://x.com/eptmpa" className={styles.contactItem}>
+                     @eptmpa
+                  </a>
+                </div>
+              </div>
+
+              <div className={styles.contactItem}>
+                  <h3>Instagram</h3>
+                  <a href="https://www.instagram.com/polysynth.io/" className={styles.contactItem}>
+                    @polysynth.io
+                  </a>
+                </div>
+              </div>
+
               <div className={styles.social}>
                 <h3>Follow Us</h3>
                 <p>Stay updated on our latest developments and announcements.</p>
