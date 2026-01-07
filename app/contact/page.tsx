@@ -32,7 +32,7 @@ export default function Contact() {
                 
                 <div className={styles.contactItem}>
                   <h3>Email</h3>
-                  <a href="mailto:eric@polysynth.io" className={styles.emailLink}>
+                  <a href="mailto:eric@polysynth.io" target="_blank" className={styles.emailLink}>
                     eric@polysynth.io
                   </a>
                 </div>

@@ -14,27 +14,6 @@ export default function About() {
         </div>
       </section>
 
-      <section className={styles.mission}>
-        <div className="container">
-          <div className={styles.missionContent}>
-            <h2>Our Mission</h2>
-            <p>
-              At Polysynth, we believe that 3D printing should be as versatile
-              and capable as your imagination. Our mission is to democratize
-              multi-material resin printing, making it accessible to designers,
-              engineers, artists, and creators who need more than what traditional
-              single-material printers can offer.
-            </p>
-            <p>
-              We&apos;re not just building a printer—we&apos;re building a platform that
-              enables new possibilities in design, manufacturing, and creativity.
-              The poly1-mini represents our commitment to innovation, quality,
-              and the future of additive manufacturing.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className={styles.founder}>
         <div className="container">
           <div className={styles.founderContent}>
@@ -59,6 +38,27 @@ export default function About() {
                 that exceed expectations and enable new creative possibilities.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.mission}>
+        <div className="container">
+          <div className={styles.missionContent}>
+            <h2>Our Mission</h2>
+            <p>
+              At Polysynth, we believe that 3D printing should be as versatile
+              and capable as your imagination. Our mission is to democratize
+              multi-material resin printing, making it accessible to designers,
+              engineers, artists, and creators who need more than what traditional
+              single-material printers can offer.
+            </p>
+            <p>
+              We&apos;re not just building a printer—we&apos;re building a platform that
+              enables new possibilities in design, manufacturing, and creativity.
+              The poly1-mini represents our commitment to innovation, quality,
+              and the future of additive manufacturing.
+            </p>
           </div>
         </div>
       </section>
