@@ -25,26 +25,33 @@
 
 .circularTextContainer {
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease;
-}
-
-.logo:hover .circularTextContainer {
-  transform: scale(1.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .circularText {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 50%;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 50%;
   transform: rotate(553.189deg);
+  -webkit-transform-origin: 50% 50%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   transition: transform 0.5s ease;
 }
 
@@ -63,28 +70,125 @@
 
 .circularLetter {
   position: absolute;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #888888;
-  transition: color 0.3s ease, transform 0.3s ease;
-  display: inline-block;
+  left: 50%;
+  top: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cccccc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  transform-origin: center;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  margin-top: -10px;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
-.circularTextContainer:hover .circularLetter {
-  color: var(--hover-color, #888888);
+.circularTextContainer:hover .circularLetter:nth-child(1) {
+  color: #ff6b6b;
+  text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(2) {
+  color: #4ecdc4;
+  text-shadow: 0 0 10px rgba(78, 205, 196, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(3) {
+  color: #45b7d1;
+  text-shadow: 0 0 10px rgba(69, 183, 209, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(4) {
+  color: #f9ca24;
+  text-shadow: 0 0 10px rgba(249, 202, 36, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(5) {
+  color: #f0932b;
+  text-shadow: 0 0 10px rgba(240, 147, 43, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(6) {
+  color: #eb4d4b;
+  text-shadow: 0 0 10px rgba(235, 77, 75, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(7) {
+  color: #6c5ce7;
+  text-shadow: 0 0 10px rgba(108, 92, 231, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(8) {
+  color: #a29bfe;
+  text-shadow: 0 0 10px rgba(162, 155, 254, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(9) {
+  color: #fd79a8;
+  text-shadow: 0 0 10px rgba(253, 121, 168, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(10) {
+  color: #00b894;
+  text-shadow: 0 0 10px rgba(0, 184, 148, 0.5);
+}
+
+.circularTextContainer:hover .circularLetter:nth-child(11) {
+  color: #e17055;
+  text-shadow: 0 0 10px rgba(225, 112, 85, 0.5);
 }
 
 .centerImage {
   position: relative;
   z-index: 10;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease;
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
-.logo:hover .centerImage {
+.centerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+.circularTextContainer:hover .centerImage {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(255, 102, 0, 0.3);
+}
+
+.circularTextContainer:hover .centerImage img {
   transform: rotate(360deg);
 }
 
@@ -145,17 +249,21 @@
   }
 
   .circularTextContainer {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 
   .circularLetter {
-    font-size: 1rem;
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-top: -8px;
   }
 
-  .centerImage img {
-    width: 35px !important;
-    height: 35px !important;
+  .centerImage {
+    width: 75px;
+    height: 75px;
   }
 
   .menuButton {
